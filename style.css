@@ -1,0 +1,68 @@
+header{
+        background: linear-gradient(
+            to left,
+            red,
+            orange
+        );
+          list-style:  none;
+        display:  flex;
+        align-items: center;
+    }
+
+    UL{
+         list-style:  none;
+        display:  flex;
+    }
+    ul li{
+        list-style:  none;
+        display:  flex;
+        margin: 30px;
+        color: brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: larger;    
+    }
+    ul li:hover{
+        color: black;
+        font-size: xx-large;
+        cursor: pointer;
+    }
+
+footer{
+    background: linear-gradient(
+        to right,
+        rgb(5, 223, 34),
+        rgb(240, 224, 0)
+
+    );
+}
+.imagenfondo{
+    background-image:url(TELETUBI/elvis-burger-esp.jpg)
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.fondooscuro{
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    width: 50%;
+    border-radius: 25px;
+}
+h2{
+    color: bisque;
+    font-size: larger;
+}
+.boton {
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
