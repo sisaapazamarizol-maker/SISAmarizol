@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(175, 100, 244);
+}
+.marquesina1{
+    background-color: beige;
+    color: red;
+    font-size: xx-large;
+}
+.marquesina2{
+    background-color: green;
+    color: beige;
+    font-size: medium;
+}
